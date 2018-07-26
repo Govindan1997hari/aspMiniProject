@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="MiniProject.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 167px;
+            width: 1005px;
+        }
+        .auto-style2 {
+            width: 100%;
+            height: 167px;
+        }
+        .auto-style4 {
+            width: 117px;
+            height: 112px;
+        }
+        .auto-style5 {
+            height: 112px;
+            width: 460px;
+        }
+        .auto-style6 {
+            width: 145px;
+            text-align: center;
+        }
+        .auto-style7 {
+            width: 117px;
+        }
+        .auto-style8 {
+            width: 460px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="auto-style1">
+
+            <table class="auto-style2">
+                <tr>
+                    <td class="auto-style7" style="background-image: url('/images/img5.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-position: left top">&nbsp;</td>
+                    <td class="auto-style6" rowspan="3">
+                        <asp:Image ID="Image1" runat="server" Height="148px" ImageUrl="~/images/img3.png" Width="134px" />
+                    </td>
+                    <td class="auto-style8" style="background-image: url('/images/img5.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-position: left top">&nbsp;</td>
+                    <td rowspan="3">
+                        <asp:Image ID="Image2" runat="server" Height="109px" ImageUrl="~/images/img4.png" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style4" style="background-color: #539879"></td>
+                    <td class="auto-style5" style="background-color: #539879">&nbsp;
+                        <asp:Label ID="Label1" runat="server" Font-Bold="False" Font-Names="Berlin Sans FB" Font-Size="XX-Large" Font-Underline="True" ForeColor="White" Text="Visitors Details"></asp:Label>
+                        &nbsp;<br />
+&nbsp;
+                        <asp:Label ID="Label2" runat="server" Font-Bold="False" Font-Names="Berlin Sans FB" Font-Size="Large" Font-Underline="False" ForeColor="White" Text="Security Purpose"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style7" style="background-image: url('/images/img5.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-position: left top">&nbsp;</td>
+                    <td class="auto-style8" style="background-image: url('/images/img5.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-position: left top">&nbsp;</td>
+                </tr>
+            </table>
+
+        </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
